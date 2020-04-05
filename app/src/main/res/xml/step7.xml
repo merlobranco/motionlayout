@@ -27,7 +27,7 @@
         <!-- Fix OnSwipe by changing touchAnchorSide -->
         <OnSwipe
                 app:touchAnchorId="@id/moon"
-                app:touchAnchorSide="bottom"
+                app:touchAnchorSide="right"
         />
 
 
