@@ -59,7 +59,7 @@
             android:tint="?colorSecondary"
             android:contentDescription="@string/star"
     />
-
+    <!-- Views that are not animated by a MotionLayout animation should specify their constraints in the layout XML file -->
     <TextView
             android:id="@+id/credits"
             android:layout_width="wrap_content"
