@@ -21,7 +21,8 @@
     <Transition
             app:constraintSetStart="@+id/start"
             app:constraintSetEnd="@+id/end">
-        <!-- TODO add OnSwipe tag -->
+        <!-- MotionLayout will track swipes relative to this view -->
+        <OnSwipe app:touchAnchorId="@id/red_star" />
     </Transition>
 
     <!-- Constraints to apply at the start of the animation -->
